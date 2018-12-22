@@ -85,4 +85,5 @@ production:
   <<: *default
   database: toy_app_for_rails_tutorial_production
   username: toy_app_for_rails_tutorial
+  url: <%= ENV['DATABASE_URL'] %>
   password: <%= ENV['toy_app_for_rails_tutorial_DATABASE_PASSWORD'] %>
