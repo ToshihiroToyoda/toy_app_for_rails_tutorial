@@ -9,7 +9,5 @@ services:
       - .:/toy_app_for_rails_tutorial
     ports:
       - "3000:3000"
-    environment:
-      - DATABASE_URL=postgres://pjzglsaizvgbzl:0bcebabb80637f68e415a075c2c839dea10f5946b9bb22a7674c90bf70848745@ec2-107-20-237-78.compute-1.amazonaws.com:5432/d60u05smv816ae
     depends_on:
       - db
